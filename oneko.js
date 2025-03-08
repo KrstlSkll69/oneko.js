@@ -16,9 +16,7 @@
     forceSleep = false,
     grabbing = false,
     grabStop = true,
-    nudge = false,
-    kuroNeko = false,
-    variant = "classic";
+    nudge = false;
 
   function parseLocalStorage(key, fallback) {
     try {
@@ -303,7 +301,7 @@
           font-size: 2em;
           animation: heartBurst 1s ease-out;
           animation-fill-mode: forwards;
-		      color:  var(--OnekoHearts);
+          color:  var(--OnekoHearts);
           filter: var(--OnekoHearts-filter);
       }
   `;
